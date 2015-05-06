@@ -4,14 +4,18 @@
 }
 
 .btn-primary {
-	color: #FF4B01;
-	background-color: #FFC28A;
-	width: 220px;
+	color: #4D1D0A;
+	background-color: #FF4B01;
+	width: 200px;
 	height: 50px;
+	moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 2px solid #cc3c00;
+  padding: 5px;
 }
 .navbar {
 	background-color: #FF4B01;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
 	background-color: #FF4B01;
@@ -31,9 +35,15 @@
 	padding: 50px;
 }
 .btn-default{
-	color: #FF4B01;
+	color: #4D1D0A;
+	background-color: #FF4B01;
+	opacity: 0.7;
 	font-size: 24px;
 	font-weight: 700;
+	moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 2px solid #cc3c00;
+  padding: 5px;
 }
 
 .col-lg-4{
@@ -52,9 +62,6 @@
 
 .carousel-inner > .item > img {
     margin: 0 auto;
-}
-.carousel-inner > .item > .btn-primary{
-	margin: 0 auto;
 }
 
 .featurette-wrapper{
