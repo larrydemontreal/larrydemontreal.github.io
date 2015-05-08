@@ -10,7 +10,7 @@
 	height: 50px;
 	moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  border: 2px solid #cc3c00;
+  border: 3px outset #cc3c00;
   padding: 5px;
 }
 .navbar {
@@ -30,6 +30,7 @@
 
 .img-circle{
 	color: #FF4B01;
+	
 }
 .marketing{
 	padding: 50px;
@@ -39,10 +40,10 @@
 	background-color: #FF4B01;
 	opacity: 0.7;
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: 900;
 	moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  border: 2px solid #cc3c00;
+  border: 3px outset #cc3c00;
   padding: 5px;
 }
 
